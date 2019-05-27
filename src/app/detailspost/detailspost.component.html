@@ -1,0 +1,11 @@
+
+
+<div class="container">
+
+  <h3>Titre : {{post.title }} </h3>
+  <h4>Auteur : <a [routerLink]="['/detailsuser', user.id]">{{user.name }}</a> </h4>
+  <div>
+    {{post.body}}
+  </div>
+</div>
+
